@@ -9,11 +9,24 @@ html {
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
 }
+
+/* Footer */
+.footer {
+  background-color: #4B0082;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 10%;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  border-top: 1px solid #ddd;
+}
+
 
 /* Navbar */
 .navbar {
@@ -88,7 +101,7 @@ body {
   font-weight: 700;
   animation: typing 3s steps(22) forwards;
   max-width: 0;
-  /* ✅ No border, no cursor */
+  
 }
 
 
@@ -103,7 +116,7 @@ body {
 
 
 .description {
-  color: #403939; /* slightly darker for better readability */
+  color: #403939; 
   font-size: 1.08rem;
   line-height: 1.5;
   margin-top:-20px;
@@ -126,10 +139,9 @@ body {
   background-color: #a104e0;
 }
 
-/* Image Styling */
 .hero-image .image-container {
   background-color: #4B0082;
-  padding: 10px;
+  padding: 4px; 
   border-radius: 50%;
   overflow: hidden;
   width: 260px;
@@ -140,11 +152,14 @@ body {
 }
 
 .hero-image img {
-  width: 240px;
-  height: 240px;
+  width: 252px; 
+  height: 252px;
   object-fit: cover;
   border-radius: 50%;
 }
+
+
+
 
 /* Scroll Down */
 .scroll-down {
@@ -205,7 +220,7 @@ body {
 .link-item {
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* better spacing between icon and text */
+  gap: 6px; 
   text-decoration: none;
   color: #4B0082;
   font-weight: 500;
@@ -217,7 +232,7 @@ body {
 }
 
 .icon {
-  font-size: 18px; /* ensures consistent size */
+  font-size: 18px; 
   line-height: 1;
   display: inline-block;
 }
@@ -308,7 +323,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  text-decoration: none;     /* removes underline */
+  text-decoration: none;    
   color: #4B0082;
   font-weight: 500;
   margin-top: 10px;
@@ -331,7 +346,7 @@ body {
 }
 
 .coding-list .link-item {
-  color: #000000; /* black text */
+  color: #000000; 
   text-decoration: none;
   font-weight: 500;
   display: inline-flex;
@@ -341,11 +356,11 @@ body {
 }
 
 .coding-list .link-item:hover {
-  color: #6A0DAD; /* purple on hover */
+  color: #6A0DAD; 
 }
 
 .section a[href^="mailto:"]:hover {
-  color: #6A0DAD; /* optional: slight color on hover */
+  color: #6A0DAD; 
 }
 
 
